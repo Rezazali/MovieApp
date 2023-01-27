@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="space_between_prgress">/</string>
+    <string name="scary_text">ترسناک</string>
+    <string name="drama_text">درام</string>
+    <string name="all_video_text">همه ویدیو ها</string>
+    <string name="name_toolbar">MovieApp</string>
+    <string name="watch_text">تماشا</string>
+</resources>
