@@ -20,24 +20,4 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
-    fun home() {
-        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
-            override fun handleOnBackPressed() {
-
-
-                Toast.makeText(this@MainActivity, "لطفا دوبار کلیک فرمایید", Toast.LENGTH_SHORT)
-                    .show()
-
-                Handler(Looper.getMainLooper()).postDelayed(
-                    { doubleBackToExitPressedOnce = false },
-                    2000
-                )
-
-                finishAffinity()
-            }
-
-        })
-    }
-
 }
